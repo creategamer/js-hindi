@@ -67,4 +67,54 @@ console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
 
+// object de-structure and json api 
+
+//de-structuing are used in object and also arrays
+
+const course={
+    coursename:"javascript in hindi",
+    price:"999",
+    courseInstructor:"muzammil"
+}
+
+//used not problem but
+//course.courseInstructor
+
+const {courseInstructor:instructor}=course
+
+// console.log(courseInstructor);
+
+console.log(instructor);
+
+
+
+//in praticle used for exam react
+//this for example
+                //pros.company
+// const navbar= ({company})=>{
+
+// }
+
+// navbar(company="hitesh")
+
+
+//api means values in backend and most values are in json
+
+//below example
+
+// {
+//     "name":"muzammil",
+//     "coursenames":"js in hindi",
+//     "price":"free"
+// }
+
+
+// some time api in arrays FormData
+
+[
+    {},
+    {},
+    {}
+]
+
 
